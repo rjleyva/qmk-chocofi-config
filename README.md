@@ -1,4 +1,4 @@
-# ⌨️ QMK Custom Keymap
+# fifi-chocofi-config
 
 This is a custom QMK layout using a split 3x6_3 layout with Mod-Tap functionality on the home row and custom tap dance logic.
 
