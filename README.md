@@ -2,7 +2,35 @@
 
 This is a custom QMK layout using a split 3x6_3 layout with Mod-Tap functionality on the home row and custom tap dance logic.
 
+## Credits
+
+This configuration is built on top of [QMK Firmware](https://qmk.fm/), an open-source keyboard firmware project.
+
+- Originally based on the work of **Jun Wako** (creator of TMK Keyboard Firmware) – © 2012 <wakojun@gmail.com>
+- Further developed and maintained by Jack Humbert (creator of QMK Firmware) – © 2015
+
+> IMPORTANT: This project does not aim to replace or rebrand QMK. It leverages QMK’s existing functionality to implement personal customizations suited to my workflow.
+
+This configuration follows the [GNU General Public License v2.0 or later](https://www.gnu.org/licenses/old-licenses/gpl-2.0.html), as used by QMK.
+
+> NOTE: The GPL link may initially show a 404 error before the page fully loads. Please try refreshing the page - it typically resolves quickly once the full content is fetched.
+
 ---
+
+## Mod-Tap Home Row (Tap Dance Logic)
+
+| Key | Tap | Hold  |
+| --- | --- | ----- |
+| A   | a   | GUI   |
+| R   | r   | ALT   |
+| S   | s   | CTRL  |
+| T   | t   | SHIFT |
+| N   | n   | SHIFT |
+| E   | e   | ALT   |
+| I   | i   | CTRL  |
+| O   | o   | GUI   |
+
+Tap dance is implemented manually in keymap.c, using a tap_dance_tap_hold_t structure and handler functions.
 
 ## Layer 0: Base (Mod-Tap Home Row)
 
@@ -45,18 +73,3 @@ This is a custom QMK layout using a split 3x6_3 layout with Mod-Tap functionalit
                              |      | Tab  |           |      |      |      |
                              `---------------------'   `---------------------'
 ```
-
-## Mod-Tap Home Row (Tap Dance Logic)
-
-| Key | Tap | Hold  |
-| --- | --- | ----- |
-| A   | a   | GUI   |
-| R   | r   | ALT   |
-| S   | s   | CTRL  |
-| T   | t   | SHIFT |
-| N   | n   | SHIFT |
-| E   | e   | ALT   |
-| I   | i   | CTRL  |
-| O   | o   | GUI   |
-
-Tap dance is implemented manually in keymap.c, using a tap_dance_tap_hold_t structure and handler functions.
