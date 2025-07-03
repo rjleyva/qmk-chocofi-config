@@ -101,13 +101,6 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         XXXXXXX, XXXXXXX, KC_KP_1, KC_KP_2, KC_KP_3, XXXXXXX,                   XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,
                                       XXXXXXX, KC_TAB, XXXXXXX,   XXXXXXX, XXXXXXX, XXXXXXX
     ),
-
-    [3] = LAYOUT_split_3x6_3(
-        _______, _______, _______, _______, _______, _______,                   _______, _______, _______, _______, _______, _______,
-        _______, _______, _______, _______, _______, _______,                   _______, _______, _______, _______, _______, _______,
-        _______, _______, _______, _______, _______, _______,                   _______, _______, _______, _______, _______, _______,
-                                      _______, _______, _______,   _______, _______, _______
-    )
 };
 
 // Optional Encoder Map
