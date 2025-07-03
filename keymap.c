@@ -20,9 +20,6 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 #include QMK_KEYBOARD_H
 
-#define TAPPING_TERM 175
-#define TAPPING_TERM_PER_KEY
-
 // Tap Dance Structure
 typedef struct {
     uint16_t tap;
